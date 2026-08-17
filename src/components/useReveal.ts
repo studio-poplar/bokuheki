@@ -4,16 +4,13 @@ import { useEffect, useRef, useState } from "react";
 
 export function useReveal<T extends HTMLElement>() {
   const ref = useRef<T | null>(null);
-  const [inView, setInView] = useState(false);
+  const [inView, setInView] = useState(
+    () => typeof window !== "undefined" && !("IntersectionObserver" in window)
+  );
 
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
-
-    if (!("IntersectionObserver" in window)) {
-      setInView(true);
-      return;
-    }
+    if (!el || !("IntersectionObserver" in window)) return;
 
     const io = new IntersectionObserver(
       (entries) => {
