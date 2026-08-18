@@ -18,7 +18,7 @@ export default function Home() {
         <div className="hero-inner">
           <div>
             <p className="hero-eyebrow">KYOTO RAKUHOKU / SAKAN CRAFTSMEN SINCE 1958</p>
-            <h1 className="hero-tategaki">黒は、静かに燃えている。</h1>
+            <h1 className="hero-tategaki">人の息づかいと、壁は共にある</h1>
           </div>
           <div className="hero-right">
             <p className="hero-sub">
