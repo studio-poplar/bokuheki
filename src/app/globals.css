@@ -1,16 +1,16 @@
 :root{
-  --sumi:      #121009;   /* 墨: near-black, warm charcoal */
-  --sumi-2:    #1c1812;   /* 黒漆喰: panel black */
-  --sumi-3:    #262019;   /* raised panel black */
+  --sumi:      #1a160f;   /* 墨: near-black, warm charcoal (lightened for legibility) */
+  --sumi-2:    #241f16;   /* 黒漆喰: panel black */
+  --sumi-3:    #2e2819;   /* raised panel black */
   --tsuchi:    #6f5a45;   /* 土: clay brown */
   --tsuchi-l:  #8a7256;   /* lighter clay for hovers */
-  --hai:       #c9beac;   /* 灰: warm ash text on dark */
-  --hai-dim:   #948872;   /* dimmed ash */
+  --hai:       #d8cdb9;   /* 灰: warm ash text on dark (brightened) */
+  --hai-dim:   #ab9c84;   /* dimmed ash (brightened for contrast) */
   --ember:     #a04a2c;   /* 燠: ember accent, used sparingly */
-  --ember-l:   #c06a45;
-  --cream:     #ece5d6;   /* 生成り: light section bg */
-  --cream-2:   #e2d9c6;
-  --ink-line:  rgba(201,190,172,0.18);
+  --ember-l:   #d0784e;   /* brightened for better pop on dark bg */
+  --cream:     #f3ede0;   /* 生成り: light section bg (brightened) */
+  --cream-2:   #e9e0cd;
+  --ink-line:  rgba(216,205,185,0.24);
 
   --serif-jp: var(--font-shippori-mincho), var(--font-noto-serif-jp), serif;
   --sans-jp:  var(--font-noto-sans-jp), sans-serif;
@@ -25,7 +25,7 @@ body{
   background:var(--sumi);
   color:var(--hai);
   font-family:var(--sans-jp);
-  font-weight:300;
+  font-weight:400;
   line-height:1.9;
   letter-spacing:.02em;
   -webkit-font-smoothing:antialiased;
