@@ -5,9 +5,9 @@ import WorkCard from "@/components/WorkCard";
 import { works } from "@/data/works";
 
 export const metadata: Metadata = {
-  title: "左官事例 | 墨壁 -BOKUHEKI- 黒田左官店",
+  title: "左官事例 | 灰谷左官店 墨壁 -BOKUHEKI-",
   description:
-    "黒田左官店がこれまでに手がけた左官事例。社寺・数寄屋・料亭・現代建築まで、黒漆喰・土壁・版築の施工実績をご紹介します。",
+    "灰谷左官店がこれまでに手がけた左官事例。社寺・数寄屋・料亭・現代建築まで、黒漆喰・土壁・版築の施工実績をご紹介します。",
 };
 
 export default function WorksPage() {

@@ -3,8 +3,8 @@ import Reveal from "@/components/Reveal";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "お問い合わせ | 墨壁 -BOKUHEKI- 黒田左官店",
-  description: "黒田左官店へのお問い合わせ。新築・改修のご相談、左官素材のサンプルご希望など、お気軽にご連絡ください。",
+  title: "お問い合わせ | 灰谷左官店 墨壁 -BOKUHEKI-",
+  description: "灰谷左官店へのお問い合わせ。新築・改修のご相談、左官素材のサンプルご希望など、お気軽にご連絡ください。",
 };
 
 export default function ContactPage() {

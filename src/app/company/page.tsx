@@ -6,8 +6,8 @@ import TexturePanel from "@/components/TexturePanel";
 import { companyInfo, craftsmen, flowSteps, history } from "@/data/company";
 
 export const metadata: Metadata = {
-  title: "会社概要 | 墨壁 -BOKUHEKI- 黒田左官店",
-  description: "黒田左官店の会社概要・沿革、職人紹介、施工の流れをご案内します。1958年創業、京都・洛北の左官工事店です。",
+  title: "会社概要 | 灰谷左官店 墨壁 -BOKUHEKI-",
+  description: "灰谷左官店の会社概要・沿革、職人紹介、施工の流れをご案内します。1958年創業、京都・洛北の左官工事店です。",
 };
 
 export default function CompanyPage() {

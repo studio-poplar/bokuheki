@@ -7,7 +7,7 @@ export default function SiteFooter() {
         <div>
           <div className="foot-brand">墨壁 — BOKUHEKI</div>
           <p className="foot-desc">
-            有限会社 黒田左官店
+            有限会社 灰谷左官店
             <br />
             京都府京都市左京区上高野 3-11
             <br />
@@ -42,7 +42,7 @@ export default function SiteFooter() {
         </div>
       </div>
       <div className="foot-bottom">
-        <span>Copyright © 1958– Kuroda Sakan-ten. All Rights Reserved.</span>
+        <span>Copyright © 1958– Haitani Sakan-ten. All Rights Reserved.</span>
         <span>※本サイトはWEB制作事例として作成した架空の企業サイトです。</span>
       </div>
     </footer>

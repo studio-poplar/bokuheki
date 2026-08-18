@@ -36,9 +36,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "黒田左官店 | 墨壁 -BOKUHEKI- 京都・洛北の左官職人集団",
+  title: "灰谷左官店 墨壁 -BOKUHEKI- | 黒漆喰と土壁の左官職人集団",
   description:
-    "京都 洛北にて三代続く左官店、黒田左官店。黒漆喰と土壁を軸に、社寺・数寄屋・料亭・現代建築の壁を手がける職人集団の仕事をご紹介します。",
+    "京都 洛北にて三代続く左官店、灰谷左官店。黒漆喰と土壁を軸に、社寺・数寄屋・料亭・現代建築の壁を手がける職人集団の仕事をご紹介します。",
 };
 
 export default function RootLayout({

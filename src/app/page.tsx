@@ -41,7 +41,7 @@ export default function Home() {
         <p className="statement-text">
           壁は、完成した瞬間から呼吸をはじめる。
           <br />
-          黒田左官店がつくるのは、<em>塗り終えた壁</em>ではなく、
+          灰谷左官店がつくるのは、<em>塗り終えた壁</em>ではなく、
           <br />
           十年、五十年とその場所の時間を吸い込みながら、
           <br />

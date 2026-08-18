@@ -6,9 +6,9 @@ import TexturePanel from "@/components/TexturePanel";
 import { materials } from "@/data/concept";
 
 export const metadata: Metadata = {
-  title: "コンセプト | 墨壁 -BOKUHEKI- 黒田左官店",
+  title: "コンセプト | 灰谷左官店 墨壁 -BOKUHEKI-",
   description:
-    "黒田左官店が黒漆喰と土壁にこだわる理由。三代目当主のことばと、独自の黒漆喰「黒聚楽」に込めた想いをご紹介します。",
+    "灰谷左官店が黒漆喰と土壁にこだわる理由。三代目当主のことばと、独自の黒漆喰「黒聚楽」に込めた想いをご紹介します。",
 };
 
 export default function ConceptPage() {
@@ -17,8 +17,8 @@ export default function ConceptPage() {
       <section className="page-hero">
         <div className="page-hero-inner">
           <p className="page-eyebrow">CONCEPT</p>
-          <h1 className="page-title">黒田の流儀</h1>
-          <p className="page-lead">早く塗ることより、長く保つことを選ぶ。黒田左官店が三代にわたり守ってきた考え方です。</p>
+          <h1 className="page-title">灰谷の流儀</h1>
+          <p className="page-lead">早く塗ることより、長く保つことを選ぶ。灰谷左官店が三代にわたり守ってきた考え方です。</p>
         </div>
       </section>
 
@@ -36,7 +36,7 @@ export default function ConceptPage() {
               だから私たちは、今日の見た目より、<em>三十年後の表情</em>を考えて鏝を動かします。」
             </p>
             <p className="section-lead">
-              祖父の代から数えて三代目。子どもの頃、土場で藁を混ぜる祖父の背中を見て育ちました。効率だけを考えるなら、既製の壁材はいくらでもあります。それでも私たちが土と漆喰にこだわるのは、年月とともに味わいを増す壁が、住む人の暮らしに寄り添うと信じているからです。黒田左官店　三代目　黒田
+              祖父の代から数えて三代目。子どもの頃、土場で藁を混ぜる祖父の背中を見て育ちました。効率だけを考えるなら、既製の壁材はいくらでもあります。それでも私たちが土と漆喰にこだわるのは、年月とともに味わいを増す壁が、住む人の暮らしに寄り添うと信じているからです。灰谷左官店　三代目　灰谷
               誠一
             </p>
           </div>

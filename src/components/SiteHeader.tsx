@@ -27,7 +27,7 @@ export default function SiteHeader() {
   return (
     <header className={`gnav${isScrolled ? " is-scrolled" : ""}`}>
       <Link href="/" className="gnav-brand">
-        墨壁<small>KURODA SAKAN-TEN — EST. 1958</small>
+        墨壁<small>HAITANI SAKAN-TEN — EST. 1958</small>
       </Link>
       <nav className={`gnav-links${isOpen ? " open" : ""}`}>
         {NAV_LINKS.map((link) => (
